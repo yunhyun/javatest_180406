@@ -19,7 +19,7 @@ public class RequestDataManagement {
 	
 	private void getRequestData(RequestData rd) {
 		mav = new ModelAndView();
-		
+		int i =0;
 		mav.addObject("request_data", rd);
 		
 		//rd 에 담긴 내용을 request_data 라는 속성명에 담음.(타입은 Object)
